@@ -1,0 +1,47 @@
+:root {
+  --accent-color: hsl(60, 100%, 60%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2em;
+}
+
+.text {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  max-width: 80%;
+}
+
+.prog {
+  color: var(--accent-color);
+}
+
+.progBarContainer {
+  width: 80%;
+  border: 2px solid var(--accent-color);
+}
+
+.progBar {
+  height: 2rem;
+  background-color: var(--accent-color);
+}
+
+.yearBar {
+  width: 0%;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+.spacer {
+  padding: 6rem;
+}
